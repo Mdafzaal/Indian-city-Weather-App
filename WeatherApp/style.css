@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.card{
+    background-color:rgba(187, 184, 184, 0.738);
+    width: 400px;
+    height: 65px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 4px 30px black;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    /* background-color: white; */
+    /* border-radius: 20px; */
+    padding-top: 7px;
+}
+
+.search input{
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    border-radius: 20px;
+    border: none;
+}
+
+#btn{
+    width: px;
+    height: 30px;
+    border-radius: 50px;
+    padding: 5px;
+    border: none;
+}
+
+.w1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    margin-bottom: 10px;
+}
+
+.w1 img{
+    width: 200px;
+    margin-top: -40px;
+}
+
+#temp{
+    font-size: 40px;
+    color: white;
+}
+
+#city{
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.w2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+#invalid{
+    font-size: 15px;
+    margin-top: -12px;
+    margin-left: -124px;
+    margin-bottom: -5px;
+    color:rgb(234, 15, 15);
+    display: none;
+}
+
+.wind, .humidity{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.humidity img, .wind img{
+    width: 70px;
+}
+
+#th, #tw{
+    font-size: 25px;
+    margin-top: 10px;
+    margin:10px;
+}
+
+.weatherStatus{
+    display: none;
+}
+
+.shape1:hover{
+    transform: translateX(10px);
+    transition: 1s;;
+}
+
+.shape2:hover{
+    transform: translateX(-10px);
+    transition: 1s;;
+}
+
+.shape{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(233, 19, 19, 0.873);
+    position: absolute;
+}
+
+.shape1{
+    top: 200px;
+    left: 909px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.shape2{
+    width: 120px;
+    height: 120px;
+    top: 550px;
+    left: 500px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
